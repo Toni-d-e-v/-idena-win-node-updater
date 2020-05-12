@@ -8,14 +8,14 @@ When Script is finish it will exit itself and u can run your node and enjoy
 # HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
 Where is your node you need to have run.bat or start.bat
 In your .bat file there needs to be this
-               
+# RUN               
                @echo off
                :restart
                ls
                idena-go --profile=lowpower --apikey=YOURAPIKEY --datadir node --rpcaddr localhost --rpcport YOURRPCPORT
                goto restart
                
-OR               
+# RUN1               
                
                @echo off
                idena-go.exe
