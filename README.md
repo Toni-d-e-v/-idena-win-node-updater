@@ -34,4 +34,4 @@ In your .bat file there needs to be this
              2.Put script in folder where is idena-go.exe
              3.Run it
              4.ENJOY
-# DNA DONATION addr: 0x3158ef188df5bbb6e969e8e4208fb68014207441
+
