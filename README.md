@@ -1,4 +1,5 @@
-# -idena-win-node-update
+# -idena-win-node-update 
+DNA DONATION addr: 0x3158ef188df5bbb6e969e8e4208fb68014207441
 This is node updater for win7/8/10
 Under win/10 u need to install POWERSHELL
 # HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
