@@ -7,17 +7,7 @@ $output = "$PSScriptRoot\idena-go.exe"
 $start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output -UseBasicParsing
 Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
-Function Example() {
-   trap [Exception] { 
-      write-host "We have an error!"; 
-      write-error $("ERROR: " + $_.Exception.Message); 
-      sleep 30;
-      break; 
-   }
-   
-write-host "Bad!";
-throw "Something very bad has happened!";
-}
+
 
 
 
