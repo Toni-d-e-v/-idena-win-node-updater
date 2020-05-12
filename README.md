@@ -8,6 +8,8 @@ When Script is finish it will exit itself and u can run your node and enjoy
 # HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
 Where is your node you need to have run.bat or start.bat
 In your .bat file there needs to be this
+Chose one to run your Node
+
 # RUN               
                @echo off
                :restart
