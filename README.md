@@ -1,6 +1,6 @@
 # -idena-win-node-update
 This is node updater for win7/8/10
-# HOW TO SEE IF MY WINDOWS IS COMPATIBLE
+# HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
 Where is your node you need to have run.bat or start.bat
 In your .bat file there needs to be this
 
