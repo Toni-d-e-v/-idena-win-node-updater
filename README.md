@@ -16,7 +16,7 @@ In your .bat file there needs to be this
 
 
 # HOW TO USE IT
-             1.Download Script
+             1.Download Script NODE-UPDATER.ps1
              2.Put script in folder where is idena-go.exe
              3.Run it
              4.ENJOY
