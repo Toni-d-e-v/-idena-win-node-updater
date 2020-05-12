@@ -3,11 +3,8 @@ This is node updater for win7/8/10
 Under win/10 u need to install POWERSHELL
 This script will update your idena node to newest version
 When new version gets release you just need to open my script
-When you run it 
-Script will delite old node download newest 
-When Script is finish it will exit itself and u can run your node 
-and enjoy
-DNA DONATION addr: 0x3158ef188df5bbb6e969e8e4208fb68014207441
+When you run it Script will delite old node download newest 
+When Script is finish it will exit itself and u can run your node and enjoy
 # HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
 Where is your node you need to have run.bat or start.bat
 In your .bat file there needs to be this
