@@ -17,17 +17,8 @@ Now you can turn off Idena app, and leave node to run in "run.bat" file. When ne
 DNA Donation address: 0x3158ef188df5bbb6e969e8e4208fb68014207441
 # HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
 Where is your node you need to have run.bat or start.bat
-In your .bat file there needs to be this
-Chose one to run your Node
-
+In your .bat file there needs to be this               
 # RUN               
-               @echo off
-               :restart
-               ls
-               idena-go --profile=lowpower --apikey=YOURAPIKEY --datadir node --rpcaddr localhost --rpcport YOURRPCPORT
-               goto restart
-               
-# RUN1               
                
                @echo off
                idena-go.exe
