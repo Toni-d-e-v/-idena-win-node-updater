@@ -15,23 +15,3 @@ In Idena app, turn on Connect to remote host, paste api key and Save
 Now you can turn off Idena app, and leave node to run in "run.bat" file. When new version of node is out, you need to to close "run.bat" and run "node-updater.ps1" by right click and "Run with PowerShell". Script will automatically update your node file. After it's done, start node again by running "run.bat" file.
 
 DNA Donation address: 0x3158ef188df5bbb6e969e8e4208fb68014207441
-# HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
-Where is your node you need to have run.bat or start.bat
-In your .bat file there needs to be this               
-# RUN               
-               
-               @echo off
-               idena-go.exe
-               timeout /t 5
-               goto start
-
-                                   
-
-
-
-# HOW TO USE IT
-             1.Download Script NODE-UPDATER.ps1
-             2.Put script in folder where is idena-go.exe
-             3.Run it
-             4.ENJOY
-
