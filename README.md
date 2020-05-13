@@ -1,4 +1,4 @@
-his script will help you to update your Idena node if you run it as a remote node (not Built-in) on Windows 7/8/10.
+This script will help you to update your Idena node if you run it as a remote node (not Built-in) on Windows 7/8/10.
 
 Why would you run your Idena node as a remote node? If you have problems where your Built-in node is failing often, running it as a remote node has proven to be more stable.
 
