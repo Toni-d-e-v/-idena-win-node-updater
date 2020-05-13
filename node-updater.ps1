@@ -4,6 +4,4 @@ Remove-Item idena-go.exe
 $github = Invoke-WebRequest 'https://api.github.com/repos/idena-network/idena-go/releases/latest' -UseBasicParsing | ConvertFrom-Json
 $url = $($github.assets | Where-Object -Property name -Like "*win*").browser_download_url
 $output = "$PSScriptRoot\idena-go.exe"
-$start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output -UseBasicParsing
-Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
