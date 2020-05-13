@@ -12,7 +12,7 @@ Turn off built-in node from Idena app in Settings
 Run "run.bat" file. This will run your node as remote node
 From location %userprofile%\AppData\Roaming\Idena\node\datadir open "api.key" with notepad and copy it
 In Idena app, turn on Connect to remote host, paste api key and Save
-Now you can turn off Idena app, and leave node to run in "run.bat" file. When new version of node is out, you need to to close "run.bat" and run "node-updater.ps1" by right click and "Run with PowerShell". Script will automatically update your node file. After it's done, start node again by running "run.bat" or "run2.bat"  file.
+Now you can turn off Idena app, and leave node to run in "run.bat" file. When new version of node is out, you need to to close "run.bat" and run "node-updater.ps1" by right click and "Run with PowerShell". Script will automatically update your node file. After it's done, start node again by running "run.bat" file.
 
 DNA Donation address: 0x3158ef188df5bbb6e969e8e4208fb68014207441
 # HOW TO SEE IF YOUR WINDOWS IS COMPATIBLE
