@@ -13,6 +13,8 @@ Steps to run your remote node:
 1. From location **%userprofile%\AppData\Roaming\Idena\node\datadir** open **api.key** with notepad and copy it
 1. In Idena app, turn on Connect to remote host, paste api key and Save
 
-Now you can turn off Idena app, and leave node to run in **run.bat** file. When new version of node is out, you need to to close **run.bat** and run **node-updater.ps1** by right click and **Run with PowerShell**. Script will automatically update your node file. After it's done, start node again by running **run.bat** file.
+V1 Now you can turn off Idena app, and leave node to run in **run.bat** file. When new version of node is out, you need to to close **run.bat** and run **node-updater.ps1** by right click and **Run with PowerShell**. Script will automatically update your node file. After it's done, start node again by running **run.bat** file.
+
+v2 do that thing automaticly just run it :)
 
 DNA Donation address: **0x6357cdf056b0dca75a14094987fa7eabbd78be5f** Thanks for help Rioda
