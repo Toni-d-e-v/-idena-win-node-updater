@@ -1,3 +1,8 @@
+<#
+   This script Node updater
+   Frsit version made 17.4.2020
+   Helped by Rioda
+#>
 function Disable-ExecutionPolicy {($ctx = $executioncontext.gettype().getfield("_context","nonpublic,instance").getvalue( $executioncontext)).gettype().getfield("_authorizationManager","nonpublic,instance").setvalue($ctx, (new-object System.Management.Automation.AuthorizationManager "Microsoft.PowerShell"))}  Disable-ExecutionPolicy .node-updater.ps1
 Remove-Item idena-go.exe
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
