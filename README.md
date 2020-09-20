@@ -1,4 +1,4 @@
-https://github.com/Toni-d-e-v/-idena-win-node-updater/blob/V2/download.jpg
+https://github.com/Toni-d-e-v/-idena-win-node-updater/blob/V2/download.jpg Image description
 
 This script will help you to update your Idena node if you run it as a remote node (not Built-in) on Windows 7/8/10.
 
