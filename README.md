@@ -21,5 +21,7 @@ V1 Now you can turn off Idena app, and leave node to run in **run.bat** file. Wh
 v2 do that thing automaticly just run it :)
 
 DNA Donation address: **0x6357cdf056b0dca75a14094987fa7eabbd78be5f** Thanks for help Rioda
-### VIDEOS
+### VIDEO
+Click on imige to see video how to make standalone node.
+Video by rioda
 [![Watch the video](https://github.com/Toni-d-e-v/-idena-win-node-updater/blob/master/download.jpg)](https://www.youtube.com/watch?v=bQ2qi8MbR3I&ab_channel=RiodaTech.)
