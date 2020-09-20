@@ -1,5 +1,6 @@
 <#
    Need to add github idena api to check fro new version
+   This is beta final version will be added via upload
 #>
 echo "Idena node updater by Toni.Dev"
 function get-fileversion {
