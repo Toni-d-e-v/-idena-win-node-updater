@@ -1,4 +1,4 @@
 @echo off
-idena-go.exe
+idena-node.exe
 timeout /t 5
 goto start
