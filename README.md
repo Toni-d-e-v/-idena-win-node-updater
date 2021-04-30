@@ -1,7 +1,7 @@
 
 ![Image of logo](https://github.com/Toni-d-e-v/-idena-win-node-updater/blob/master/download.jpg)
 
-This script will help you to update your Idena node if you run it as a remote node (not Built-in) on Windows 7/8/10.
+This script will help you to update your Idena node if you run it as a remote node (not Built-in) on Windows 7/8/10. and Debian Linux!
 
 Why would you run your Idena node as a remote node?
 
