@@ -7,7 +7,7 @@ Why would you run your Idena node as a remote node?
 
 If you have problems where your Built-in node is failing often, running it as a remote node has proven to be more stable.
 
-# We also have linux simplified version which can download and install lastest idena-node in one command, that i personaly use.
+``We also have linux simplified version which can download and install lastest idena-node in one command, that i personaly use.``
 ![link](https://github.com/Toni-d-e-v/-idena-win-node-updater/releases/tag/5.0)
 You can run Idena node as remote node by downloading two scripts above (**node-updater.ps1**, **run.bat**) and placing them in location where the node file is: **%userprofile%\AppData\Roaming\Idena\node**
 
