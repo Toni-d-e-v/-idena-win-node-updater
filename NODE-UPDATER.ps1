@@ -6,6 +6,7 @@
 <#
    Need to add github idena api to check fro new version
    By toni.dev
+   Lastest modified apr 30 2021
 #>
 echo "Idena node updater by Toni.Dev"
 
@@ -30,7 +31,11 @@ While($true){
     $start_time = Get-Date
 
     Invoke-WebRequest -Uri $url -OutFile $output -UseBasicParsing
-
+    $Prog = "idena-node.exe"
+    $Running = Get-Process prog -ErrorAction SilentlyContinue
+    $Start = ([wmiclass]"win32_process").Create($Prog) # the process is created on this line
+    if($Running -eq $null) # evaluating if the program is running
+    {$Start}
 
 
 Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)" 
