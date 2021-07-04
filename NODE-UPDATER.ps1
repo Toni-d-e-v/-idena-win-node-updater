@@ -41,7 +41,7 @@ While($true){
 Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)" 
 
 	echo 'Kiling idena node'
-    taskkill /IM "Idena-go.exe" /F
+    taskkill /IM "idena-node.exe" /F
 
 
 	[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -59,9 +59,7 @@ Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
 		$idenalastnode
 		echo 'Please wait'
 		Stop-Process -Name "Idena"
-		cd $env:USERPROFILE\AppData\Roaming\Idena\node
-		rm .\idena-go.exe
-        rm .\idena-node.exe
+                rm .\idena-node.exe
 		[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 		Invoke-WebRequest -OutFile idena-go.exe https://github.com/idena-network/idena-go/releases/download/$idenanoderes/idena-node-win-$idenalastnode.exe
 		echo 'Running'
